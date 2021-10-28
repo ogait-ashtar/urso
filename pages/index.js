@@ -32,7 +32,7 @@ export default function Home() {
           <Link href="/band/almanegra">
             <a className={styles.card}>
               <h2>Alma Negra</h2>
-              <p>Find in-depth information about Next.js features and API.</p>
+              <p>Alma Negra</p>
             </a>
           </Link>
           <Link href="/band/slammer">
