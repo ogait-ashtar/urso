@@ -43,6 +43,11 @@
 .title a:active {
   text-decoration: underline;
 }
+.menu :hover,
+.menu :focus,
+.menu :active {
+  text-decoration: underline;
+}
 
 .title {
   margin: 0;
@@ -59,7 +64,30 @@
   line-height: 1.5;
   font-size: 1.5rem;
 }
-
+.content {
+  display: flex;
+  justify-content: center;
+  background-color: #000000;
+  padding-bottom: 30px;
+  color: #ddd;
+}
+.contato {
+  width: 100%;
+  max-width: 500px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+}
+.field {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  padding: 0 0 30px 0;
+}
 .code {
   background: #fafafa;
   border-radius: 5px;
@@ -128,7 +156,8 @@
 .menu {
   display: flex;
 }
-.menu li:hover,
+
+
 
 .menu li {
   margin-left: 10px;

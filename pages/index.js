@@ -26,13 +26,7 @@ export default function Home() {
               <a href="#home">HOME</a>
             </li>
             <li>
-              <a href="#profile">MÚSICOS</a>
-            </li>
-            <li>
-              <a href="#downloads">DOWNLOADS</a>
-            </li>
-            <li>
-              <a href="#agenda">AGENDA</a>
+              <a href="#profile">ANUNCIE AQUI</a>
             </li>
             <li>
               <a href="#content">CONTATO</a>
@@ -43,6 +37,19 @@ export default function Home() {
       </div>
 
       <main className={styles.main}>
+      <section className={styles.content}>
+        <div className={styles.contat}>
+          <h2>PROCURE SUA BANDA PREFERIDA </h2>
+          <form className={styles.form} method="POST" action="./email.php">
+            <input
+              className={styles.field}
+              name="Nome"
+              placeholder="Nome da Banda"></input>
+           
+            <input type="submit" value="Procurar"></input>
+          </form>
+        </div>
+      </section>
         <h1 className={styles.title}>
           Welcome to <a href="">METAL PORTAL!</a>
         </h1>
@@ -74,6 +81,7 @@ export default function Home() {
               </p>
             </a>
           </Link>
+          
 
           {/* <a href="https://nextjs.org/learn" className={styles.card}>
             <h2>Learn &rarr;</h2>
@@ -96,6 +104,26 @@ export default function Home() {
             </p>
           </a> */}
         </div>
+        <section className={styles.content}>
+        <div className={styles.contat}>
+          <h2>CADASTRE SUA BANDA </h2>
+          <form className={styles.form} method="POST" action="./email.php">
+            <input
+              className={styles.field}
+              name="Nome"
+              placeholder="Nome da Banda"></input>
+            <input
+              className={styles.field}
+              name="email"
+              placeholder="E-mail"></input>
+            <textarea
+              className={styles.field}
+              name="mesage"
+              placeholder="Digite sua mensagem aqui"></textarea>
+            <input type="submit" value="Enviar"></input>
+          </form>
+        </div>
+      </section>
       </main>
 
       {/* <footer className={styles.footer}>
