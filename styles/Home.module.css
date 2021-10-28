@@ -113,6 +113,32 @@
   margin-left: 0.5rem;
 }
 
+.log img {
+  max-width: 200px;
+}
+
+.header {
+  background: #000000;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0 0 20px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.menu {
+  display: flex;
+}
+.menu li:hover,
+
+.menu li {
+  margin-left: 10px;
+}
+
+.menu li a {
+  display: block;
+  padding: 10px;
+}
+
 @media (max-width: 600px) {
   .grid {
     width: 100%;
