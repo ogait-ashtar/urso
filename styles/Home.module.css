@@ -34,14 +34,17 @@
 }
 
 .title a {
-  color: #0070f3;
+  color: #fff;
   text-decoration: none;
+  text-align: center;
+  padding: 40px;
 }
 
 .title a:hover,
 .title a:focus,
 .title a:active {
   text-decoration: underline;
+  text-align: center;
 }
 .menu :hover,
 .menu :focus,
@@ -50,9 +53,16 @@
 }
 
 .title {
-  margin: 0;
+  margin: 50px ;
   line-height: 1.15;
   font-size: 4rem;
+}
+
+.anuncio{
+  display: flex;
+  justify-content: center;
+ 
+  
 }
 
 .title,
@@ -167,6 +177,8 @@
   display: block;
   padding: 10px;
 }
+
+
 
 @media (max-width: 600px) {
   .grid {

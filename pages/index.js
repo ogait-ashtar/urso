@@ -35,13 +35,16 @@ export default function Home() {
         </nav>
       </header>
       </div>
-
+      <h1 className={styles.title}>
+          Welcome to <a href="">METAL PORTAL!</a>
+        </h1>
       <main className={styles.main}>
       <section className={styles.content}>
+        
         <div className={styles.contat}>
           <h2>PROCURE SUA BANDA PREFERIDA </h2>
           <form className={styles.form} method="POST" action="./email.php">
-            <input
+          <input
               className={styles.field}
               name="Nome"
               placeholder="Nome da Banda"></input>
@@ -50,20 +53,22 @@ export default function Home() {
           </form>
         </div>
       </section>
-        <h1 className={styles.title}>
-          Welcome to <a href="">METAL PORTAL!</a>
-        </h1>
+        
 
         {/* <p className={styles.description}>
           Get started by editing{" "}
           <code className={styles.code}>pages/index.js</code>
         </p> */}
 
+<h1 className={styles.anuncio}>
+          Welcome to <a href="">Anuncie sua Banda Conosco</a>
+        </h1>
+
         <div className={styles.grid}>
           <Link href="/band/urso">
             <a className={styles.card}>
               <h2>Urso</h2>
-              <p>Find in-depth information about Next.js features and API.</p>
+              <p>Urso</p>
             </a>
           </Link>
           <Link href="/band/almanegra">
@@ -76,8 +81,7 @@ export default function Home() {
             <a className={styles.card}>
               <h2>Slammer</h2>
               <p>
-                Slammer IS Find in-depth information about Next.js features and
-                API.
+                Slammer
               </p>
             </a>
           </Link>
@@ -119,8 +123,10 @@ export default function Home() {
             <textarea
               className={styles.field}
               name="mesage"
-              placeholder="Digite sua mensagem aqui"></textarea>
-            <input type="submit" value="Enviar"></input>
+              placeholder="Realese"></textarea>
+               <input type="file" id="flimage" name="flimage" accept="image*/"></input><br></br>
+            <input type="submit" value="Enviar"></input><br></br>
+            
           </form>
         </div>
       </section>
