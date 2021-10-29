@@ -58,13 +58,14 @@
   font-size: 4rem;
 }
 
-.anuncio{
-  display: flex;
-  justify-content: center;
- 
+.contat {
+  padding-left: 40px;
   
 }
 
+.parceiros{
+  color: #fff;
+}
 .title,
 .description {
   text-align: center;
@@ -78,8 +79,9 @@
   display: flex;
   justify-content: center;
   background-color: #000000;
-  padding-bottom: 30px;
+  padding: 20px 30px 20px 30px;
   color: #ddd;
+  margin-left: 50px;
 }
 .contato {
   width: 100%;
@@ -88,6 +90,15 @@
 .form {
   display: flex;
   flex-direction: column;
+  padding-left: 10px;
+  margin: auto;
+ 
+}
+.h3{
+  color: #fff;
+  }
+.cadastro{
+  margin: auto;
 }
 .field {
   padding: 10px;

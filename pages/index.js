@@ -35,40 +35,56 @@ export default function Home() {
         </nav>
       </header>
       </div>
-      <h1 className={styles.title}>
-          Welcome to <a href="">METAL PORTAL!</a>
-        </h1>
+      
       <main className={styles.main}>
-      <section className={styles.content}>
-        
-        <div className={styles.contat}>
+             <section className={styles.content}>
+          <div className={styles.contat}>
           <h2>PROCURE SUA BANDA PREFERIDA </h2>
           <form className={styles.form} method="POST" action="./email.php">
           <input
               className={styles.field}
               name="Nome"
               placeholder="Nome da Banda"></input>
-           
+           <input
+              className={styles.field}
+              name="estilo"
+              placeholder="Estilo"></input>
             <input type="submit" value="Procurar"></input>
           </form>
         </div>
-      </section>
+      
         
 
         {/* <p className={styles.description}>
           Get started by editing{" "}
           <code className={styles.code}>pages/index.js</code>
         </p> */}
+         
+  
+          <div className={styles.contat}>
+          <h2>ANUNCIE SUA BANDA CONOSCO </h2>
+            <form className={styles.form} method="POST" action="./email.php">
+            <input
+              className={styles.field}
+              name="Nome"
+              placeholder="Nome da Banda"></input>
+            <input
+              className={styles.field}
+              name="email"
+              placeholder="E-mail"></input>
+             <input type="submit" value="Enviar"></input><br></br>
+            
+          </form>
+    
+</div>
+</section>
 
-<h1 className={styles.anuncio}>
-          Welcome to <a href="">Anuncie sua Banda Conosco</a>
-        </h1>
+<h1 className={styles.parceiros}>BANDAS PARCEIRAS</h1>
 
         <div className={styles.grid}>
           <Link href="/band/urso">
             <a className={styles.card}>
-              <h2>Urso</h2>
-              <p>Urso</p>
+            <img src="ursoperfil.jpg" alt="foto urso"></img>
             </a>
           </Link>
           <Link href="/band/almanegra">
@@ -109,7 +125,7 @@ export default function Home() {
           </a> */}
         </div>
         <section className={styles.content}>
-        <div className={styles.contat}>
+        <div className={styles.cadastro}>
           <h2>CADASTRE SUA BANDA </h2>
           <form className={styles.form} method="POST" action="./email.php">
             <input
@@ -123,7 +139,8 @@ export default function Home() {
             <textarea
               className={styles.field}
               name="mesage"
-              placeholder="Realese"></textarea>
+              placeholder="Realese e Redes Sociais"></textarea>
+              <h3>ADD FOTOS</h3>
                <input type="file" id="flimage" name="flimage" accept="image*/"></input><br></br>
             <input type="submit" value="Enviar"></input><br></br>
             
@@ -132,17 +149,17 @@ export default function Home() {
       </section>
       </main>
 
-      {/* <footer className={styles.footer}>
+       <footer className={styles.footer}>
         <a
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
           target="_blank"
           rel="noopener noreferrer">
-          Powered by{" "}
+          PORTAL METAL DIREITOS RESERVADOS{" "}
           <span className={styles.logo}>
             <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
           </span>
         </a>
-      </footer> */}
+      </footer> 
     </div>
   );
 }
