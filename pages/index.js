@@ -35,6 +35,15 @@ export default function Home() {
         </nav>
       </header>
       </div>
+      <div className={styles.banner}>
+        <Image
+        src="/urso/capasite.jpg"
+        width="1000px"
+        height="300px"
+        layout="fixed"
+        />
+
+ </div>       
       
       <main className={styles.main}>
              <section className={styles.content}>
@@ -84,7 +93,7 @@ export default function Home() {
         <div className={styles.grid}>
           <Link href="/band/urso">
             <a className={styles.card}>
-            <img src="ursoperfil.jpg" alt="foto urso"></img>
+            <img src="../ursoperfil.jpg" alt="foto urso"></img>
             </a>
           </Link>
           <Link href="/band/almanegra">
@@ -102,7 +111,7 @@ export default function Home() {
             </a>
           </Link>
           
-
+<br></br>
           {/* <a href="https://nextjs.org/learn" className={styles.card}>
             <h2>Learn &rarr;</h2>
             <p>Learn about Next.js in an interactive course with quizzes!</p>

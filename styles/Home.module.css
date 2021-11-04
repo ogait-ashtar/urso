@@ -6,6 +6,7 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
+  
 }
 
 .main {
@@ -15,6 +16,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: #fff;
 }
 
 .footer {
@@ -61,10 +63,13 @@
 .contat {
   padding-left: 40px;
   
+  
 }
 
 .parceiros{
-  color: #fff;
+  color: #000000;
+  margin-top: 80px;
+  
 }
 .title,
 .description {
@@ -79,9 +84,10 @@
   display: flex;
   justify-content: center;
   background-color: #000000;
-  padding: 20px 30px 20px 30px;
+  padding: 30px 30px 20px 30px;
   color: #ddd;
   margin-left: 50px;
+  margin-top: 300px;
 }
 .contato {
   width: 100%;
@@ -95,7 +101,7 @@
  
 }
 .h3{
-  color: #fff;
+  color: #000000;
   }
 .cadastro{
   margin: auto;
@@ -118,13 +124,18 @@
     Bitstream Vera Sans Mono, Courier New, monospace;
 }
 
+
 .grid {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: justify;
   flex-wrap: wrap;
   max-width: 800px;
   margin-top: 3rem;
+  background-color: #000000;
+  padding-left: 0px;
+
+    
 }
 
 .card {
@@ -145,7 +156,9 @@
   color: #0070f3;
   border-color: #0070f3;
 }
-
+.banner{
+  position: fixed;
+}
 .card h2 {
   margin: 0 0 1rem 0;
   font-size: 1.5rem;
