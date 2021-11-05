@@ -19,25 +19,22 @@ export default function Home() {
            <h1>PORTAL BANDAS</h1>
            </div>
         </a>
-        
-      </header>
-      </div>
-      <div className={styles.banner}>
+        <div className={styles.banner}>
         <Image
-        src="/homemetal/show.jpg"
-        width="2000px"
+        src="/homemetal/"
+        width="1349px"
         height="400px"
         layout="fixed"
-        
-    
-        
-        />
-
- </div>       
+       />
+       </div>  
+       </header>
+      </div>
+      
       
       <main className={styles.main}>
+      
              <section className={styles.content}>
-          <div className={styles.contat}>
+                         <div className={styles.contat}>
           <h2>PROCURE SUA BANDA PREFERIDA </h2>
           <form className={styles.form} method="POST" action="./email.php">
           <input
@@ -101,7 +98,7 @@ export default function Home() {
             </a>
           </Link>
           
-<br></br>
+
           {/* <a href="https://nextjs.org/learn" className={styles.card}>
             <h2>Learn &rarr;</h2>
             <p>Learn about Next.js in an interactive course with quizzes!</p>
