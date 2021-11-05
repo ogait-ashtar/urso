@@ -80,21 +80,17 @@ export default function Home() {
         <div className={styles.grid}>
           <Link href="/band/urso">
             <a className={styles.card}>
-            <img src="../ursoperfil.jpg" alt="foto urso"></img>
+            <img src="/homemetal/capasite.jpg" alt="foto urso"></img>
             </a>
           </Link>
           <Link href="/band/almanegra">
             <a className={styles.card}>
-              <h2>Alma Negra</h2>
-              <p>Alma Negra</p>
+            <img src="/homemetal/alma.jpg" alt="foto urso"></img>
             </a>
           </Link>
           <Link href="/band/slammer">
             <a className={styles.card}>
-              <h2>Slammer</h2>
-              <p>
-                Slammer
-              </p>
+            <img src="/homemetal/slammer.jpg" alt="foto urso"></img>
             </a>
           </Link>
           
