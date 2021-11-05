@@ -93,6 +93,11 @@ export default function Home() {
             <img src="/homemetal/slammer.jpg" alt="foto urso"></img>
             </a>
           </Link>
+          <Link href="/band/slammer">
+            <a className={styles.card}>
+            <img src="/homemetal/semfuturo.jpg" alt="foto urso"></img>
+            </a>
+          </Link>
           
 
           {/* <a href="https://nextjs.org/learn" className={styles.card}>
