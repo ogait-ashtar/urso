@@ -6,8 +6,10 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
+
   
 }
+
 
 .main {
   padding: 5rem 0;
@@ -17,6 +19,9 @@
   justify-content: center;
   align-items: center;
   background-color: #fff;
+  
+  
+
 }
 
 .footer {
@@ -26,6 +31,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  
 }
 
 .footer a {
@@ -34,52 +40,13 @@
   align-items: center;
   flex-grow: 1;
 }
-
-.title a {
-  color: #fff;
-  text-decoration: none;
-  text-align: center;
-  padding: 40px;
-}
-
-.title a:hover,
-.title a:focus,
-.title a:active {
-  text-decoration: underline;
-  text-align: center;
-}
-.menu :hover,
-.menu :focus,
-.menu :active {
-  text-decoration: underline;
-}
-
-.title {
-  margin: 50px ;
-  line-height: 1.15;
-  font-size: 4rem;
-}
-
-.contat {
-  padding-left: 40px;
+.banner{
   
-  
+  position: fixed;
+  background-attachment: fixed;
 }
 
-.parceiros{
-  color: #000000;
-  margin-top: 80px;
-  
-}
-.title,
-.description {
-  text-align: center;
-}
-
-.description {
-  line-height: 1.5;
-  font-size: 1.5rem;
-}
+ 
 .content {
   display: flex;
   justify-content: center;
@@ -88,6 +55,10 @@
   color: #ddd;
   margin-left: 50px;
   margin-top: 300px;
+}
+.parceiros{
+  color: #000000;
+  margin-top: 80px;
 }
 .contato {
   width: 100%;
@@ -125,6 +96,7 @@
 }
 
 
+  
 .grid {
   display: flex;
   align-items: center;
@@ -156,9 +128,7 @@
   color: #0070f3;
   border-color: #0070f3;
 }
-.banner{
-  position: fixed;
-}
+
 .card h2 {
   margin: 0 0 1rem 0;
   font-size: 1.5rem;
@@ -170,37 +140,34 @@
   line-height: 1.5;
 }
 
-.logo {
-  height: 1em;
-  margin-left: 0.5rem;
-}
 
-.log img {
+
+.log  {
   max-width: 200px;
+   display: flex;
+   padding-left: 550px;
+  
+
 }
 
 .header {
   background: #000000;
   display: flex;
   justify-content: space-between;
-  padding: 10px 0 0 20px;
+  padding: 1px 0 0 20px;
   align-items: center;
   flex-wrap: wrap;
-}
-.menu {
-  display: flex;
-}
+  
+ 
+ }
+
+
+  
 
 
 
-.menu li {
-  margin-left: 10px;
-}
 
-.menu li a {
-  display: block;
-  padding: 10px;
-}
+
 
 
 

@@ -15,32 +15,22 @@ export default function Home() {
       <div className="container">
       <header className={styles.header}>
         <a href="#home">
-          <img
-            className={styles.log}
-            src={`/$/logoyoutube.png`}
-            alt="logo"></img>
+          <div  className={styles.log}>
+           <h1>PORTAL BANDAS</h1>
+           </div>
         </a>
-        <nav>
-          <ul className={styles.menu}>
-            <li>
-              <a href="#home">HOME</a>
-            </li>
-            <li>
-              <a href="#profile">ANUNCIE AQUI</a>
-            </li>
-            <li>
-              <a href="#content">CONTATO</a>
-            </li>
-          </ul>
-        </nav>
+        
       </header>
       </div>
       <div className={styles.banner}>
         <Image
-        src="/urso/capasite.jpg"
-        width="1000px"
-        height="300px"
+        src="/homemetal/show.jpg"
+        width="2000px"
+        height="400px"
         layout="fixed"
+        
+    
+        
         />
 
  </div>       
