@@ -9,9 +9,15 @@
   
   
 }
+.bloco4{
+  background-color: #fff;
+  padding: auto;
+  color: #fff;
+}
 .contat{
   letter-spacing: .2rem;
   display: block;
+  color: #fff;
 }
 
 .main {
@@ -174,8 +180,10 @@ background-size: cover;
  
  }
 
-
-
+.cad{
+  color: #fff;
+  
+}
 
 
 
